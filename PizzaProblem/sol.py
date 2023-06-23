@@ -36,8 +36,7 @@ class OnePizza:
         for x in self.likes.most_common():
             if self.likes[x[0]] > self.dislikes[x[0]]:
                 ingredients.append(x[0])
-        # ingredients.sort()
-        # ingredients = ingredients[:5]
+
         self.output(ingredients)
 
 
